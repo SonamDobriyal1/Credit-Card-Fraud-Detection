@@ -16,7 +16,6 @@ To develop a reliable machine learning system that can identify fraudulent trans
    - Used a public credit card transaction dataset containing both fraudulent and legitimate records.
 
 2. **Data Preprocessing**  
-   - Handled missing values and scaled the `Amount` and `Time` features.
    - Performed exploratory data analysis and correlation heatmap.
 
 3. **Feature Engineering**  
@@ -27,16 +26,15 @@ To develop a reliable machine learning system that can identify fraudulent trans
    - Applied **SMOTE** (Synthetic Minority Oversampling Technique) to balance the training data.
 
 5. **Model Training**  
-   - Trained multiple models including:
-     - Random Forest Classifier
-     - Logistic Regression
+   - Trained Random Forest Classifier model
+       
 
 6. **Model Evaluation**  
    - Evaluated models using:
      - Accuracy
      - Precision, Recall, F1-score
      - Confusion Matrix
-     - ROC and Precision-Recall Curves
+     
 
 ---
 
@@ -53,8 +51,7 @@ To develop a reliable machine learning system that can identify fraudulent trans
 
 - Correlation heatmap of features
 - Feature importance plot
-- ROC and Precision-Recall curves
-- Confusion matrix visualization
+- Confusion matrix 
 
 ---
 
